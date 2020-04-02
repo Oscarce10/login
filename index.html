@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Titulo</title>
+
+    <!--------------- favicon ------------------------------->
+    <link rel="shortcut icon" href="img/logo/undraw_happy_music_g6wc.svg" />
+
+    <!--------------- Normalize css ------------------------->
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!--------------- jQuery ------------------------->
+    <script rel="script" src="js/jquery-3.4.1.min.js"></script>
+
+    <!--------------- Bootstap ------------------------->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script rel="script" src="js/bootstrap.bundle.min.js"></script>
+
+    <!--------------- Font awsome ------------------------->
+    <link href="css/all.min.css" rel="stylesheet">
+    <script rel="script" src="js/all.min.js"></script>
+
+    <!--------------- Flatly css ------------------------->
+    <link href="css/flatly.min.css" rel="stylesheet">
+
+    <!--------------- Styles css ------------------------->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!--------------- Lexend font ------------------------->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('dropdown-toggle').dropdown();
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        });
+    </script>
+
+
+</head>
+
+
+<body>
+
+<div class="container h-100">
+    <div class="row h-100">
+        <div class="col">
+        </div>
+        <div class="middle col-xs-8 col-md-5 align-self-center text-center">
+            <form class="form-signin" action="#" method="post">
+                <!-- Se incluye logo via css -->
+                <div class="mb-4 logo"></div>
+
+                <h1 class="h3 mb-3 font-weight-normal">Iniciar sesion</h1>
+
+                <!--Campo de correo-->
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend email">
+                        <span class="input-group-text"><i class="fas fa-user-tie"></i></span>
+                    </div>
+                    <input class="form-control" placeholder="Correo electronico" required
+                           title="Ingrese correo" type="email"/>
+                </div>
+
+                <!--Campo de contraseña-->
+                <div class="input-group mb-3 contr">
+                    <div class="input-group-prepend pass">
+                        <span class="input-group-text"><i class="fas fa-key"></i></span>
+                    </div>
+                    <input autofocus="" class="form-control" id="inputEmail" placeholder="Contraseña" required
+                           title="Ingrese Contraseña"
+                           type="password"/>
+                </div>
+                <div class="checkbox mb-4" id="checkbox-container">
+                    <label>
+                        <input  id="checkbox" type="checkbox" value="Recordar"/> Recordar usuario
+                    </label>
+                </div>
+
+                <button class="btn btn-lg btn-success btn-block btn-ingreso" type="submit">
+                    Ingresar
+                </button>
+
+                <div class="mb-3" id="recupera-password">
+                    <a href="password_reset.html"><span>Recuperar contraseña</span></a>
+                </div>
+
+                <div id="no-cuenta">
+
+                    ¿No tiene cuenta registrada?
+                    <div>
+                        <a href="registro.html" title="Registrarse">
+                            Crear cuenta de usuario
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col">
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>
