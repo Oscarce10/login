@@ -56,6 +56,17 @@ a:hover{
     clear: both;
 }
 
+@media (max-width: 575px) {
+
+    .logo{
+        display: none;
+    }
+
+    #checkbox-container, #recupera-password{
+        margin-bottom: 5px !important;
+    }
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
 
     .logo{
@@ -69,7 +80,7 @@ a:hover{
 }
 
 @media (max-width: 575px) {
-    
+
     .logo{
         height: 175px;
     }
