@@ -38,8 +38,8 @@ a:hover{
     background-image: url(../img/logo/undraw_happy_music_g6wc.svg);
     background-size: cover;
     margin: auto;
-    width: 60%;
-    height: 270px;
+    width: 50%;
+    height: 230px;
 }
 
 #checkbox-container, #recupera-password{
@@ -56,32 +56,33 @@ a:hover{
     clear: both;
 }
 
-
 @media (min-width: 576px) and (max-width: 767px) {
 
     .logo{
         background-image: url(../img/logo/undraw_happy_music_g6wc.svg);
         background-size: cover;
         margin: auto;
-        width: 70%;
-        height: 300px;
-
+        width: 50%;
+        height: 220px;
     }
 
 }
 
 @media (max-width: 575px) {
-
+    
     .logo{
-        background-image: url(../img/logo/undraw_happy_music_g6wc.svg);
-        background-size: cover;
-        margin: auto;
-        width: 170px;
-        height: 100px;
+        height: 175px;
+    }
 
+    body{
+        font-size: 0.8em;
+    }
+    a{
+        font-size: 1.1em;
     }
 
 }
+
 
 /*
 @media (min-width: 768px) { ... }
@@ -89,6 +90,13 @@ a:hover{
 
 @media (min-width: 992px) { ... }
 
-
-@media (min-width: 1200px) { ... }
 */
+@media (min-width: 1200px) {
+    .logo{
+        background-image: url(../img/logo/undraw_happy_music_g6wc.svg);
+        background-size: cover;
+        margin: auto;
+        width: 50%;
+        height: 270px;
+    }
+ }
